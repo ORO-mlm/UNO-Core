@@ -1,0 +1,8 @@
+/usr/bin/uno-cli		--	gen_context(system_u:object_r:uno_exec_t,s0)
+/usr/sbin/unod		--	gen_context(system_u:object_r:uno_exec_t,s0)
+/usr/lib(64)?/uno/unod		--	gen_context(system_u:object_r:uno_exec_t,s0)
+
+/etc/uno(/.*)?		gen_context(system_u:object_r:uno_conf_t,s0)
+/var/lib/uno(/.*)?		gen_context(system_u:object_r:uno_var_lib_t,s0)
+
+(/var)?/run/unod(/.*)?   gen_context(system_u:object_r:uno_var_run_t,s0)

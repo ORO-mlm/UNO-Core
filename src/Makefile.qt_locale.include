@@ -1,0 +1,15 @@
+QT_TS = \
+  qt/locale/uno_de.ts \
+  qt/locale/uno_en.ts \
+  qt/locale/uno_en_US.ts \
+  qt/locale/uno_es.ts \
+  qt/locale/uno_es_ES.ts \
+  qt/locale/uno_fr_FR.ts \
+  qt/locale/uno_hr_HR.ts \
+  qt/locale/uno_it.ts \
+  qt/locale/uno_ko_KR.ts \
+  qt/locale/uno_nl.ts \
+  qt/locale/uno_pl.ts \
+  qt/locale/uno_ru.ts \
+  qt/locale/uno_tr.ts \
+  qt/locale/uno_zh_CN.ts

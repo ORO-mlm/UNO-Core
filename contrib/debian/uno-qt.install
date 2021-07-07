@@ -1,0 +1,6 @@
+usr/local/bin/uno-qt usr/bin
+share/pixmaps/uno32.xpm usr/share/pixmaps
+share/pixmaps/uno16.xpm usr/share/pixmaps
+share/pixmaps/uno128.png usr/share/pixmaps
+debian/uno-qt.desktop usr/share/applications
+debian/uno-qt.protocol usr/share/kde4/services/

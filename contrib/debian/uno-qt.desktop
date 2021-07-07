@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=UNO Core
+Comment=UNO P2P Cryptocurrency
+Comment[fr]=UNO, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=UNO, eşten eşe kriptografik sanal para birimi
+Exec=uno-qt %u
+Terminal=false
+Type=Application
+Icon=uno128
+MimeType=x-scheme-handler/uno;
+Categories=Office;Finance;
+StartupWMClass=Uno-qt

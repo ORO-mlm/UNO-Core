@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[uno-project-translations.qt-translation-51x]
+file_filter = src/qt/locale/uno_<lang>.ts
+source_file = src/qt/locale/uno_en.ts
+source_lang = en

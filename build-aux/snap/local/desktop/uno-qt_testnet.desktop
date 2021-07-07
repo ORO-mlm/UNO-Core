@@ -1,0 +1,15 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=UNO Core
+Comment=UNO Core QT test network
+GenericName=UNO Digital Currency QT client testnet network
+Exec=uno-core.qt-testnet %u
+Terminal=false
+Type=Application
+Icon=${SNAP}/share/pixmaps/uno_testnet.png
+MimeType=x-scheme-handler/uno;
+Categories=X-Office;X-Finance;
+Keywords=internet;uno;zuno;toro;core;wallet;qt;testnet;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
+Version=1.0
