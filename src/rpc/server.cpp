@@ -111,7 +111,7 @@ CAmount AmountFromValue(const UniValue& value)
     if (!value.isNum() && !value.isStr())
         throw JSONRPCError(RPC_TYPE_ERROR,"Amount is not a number or string");
     CAmount nAmount;
-    if (!ParseFixedPoint(value.getValStr(), 3, &nAmount))
+    if (!ParseFixedPoint(value.getValStr(), 8, &nAmount))
         throw JSONRPCError(RPC_TYPE_ERROR, "Invalid amount");
     if (!Params().GetConsensus().MoneyRange(nAmount))
         throw JSONRPCError(RPC_TYPE_ERROR, "Amount out of range");
